@@ -400,3 +400,65 @@ header {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .areas {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding: 10px 0;
+    }
+
+    .home {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .home_informacao {
+        align-items: center;
+    }
+
+    .home_imagem img {
+        max-width: 200px;
+    }
+
+    .sobremim, .skills, .estudos, .experiencia, .projetos {
+        margin: 40px 20px;
+    }
+
+    .ferramentas {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .formacoes, .trabalhos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sites_site {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .sites_site_img {
+        max-width: 100%;
+    }
+
+    .sites_site_botao {
+        width: 80%;
+        text-align: center;
+    }
+
+    .contato_p {
+        width: 90%;
+        text-align: center;
+    }
+}
