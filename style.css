@@ -441,6 +441,16 @@ header {
     header {
         flex-direction: column;
         padding: 10px;
+        height: max-content;
+    }
+
+    .link_texto {
+        margin: 15px;
+    }
+
+    .areas {
+        margin: 5px;
+        display: none;
     }
 
     .areas {
@@ -451,8 +461,8 @@ header {
     }
 
     .home {
-        flex-direction: column;
-        gap: 20px;
+        flex-direction: column-reverse;
+        gap: 10px;
         text-align: center;
     }
 
@@ -462,6 +472,34 @@ header {
 
     .home_imagem img {
         max-width: 200px;
+    }
+
+    .sobremim_titulo {
+        font-size: 25px;
+    }
+
+    .sobremim_texto {
+        font-size: 15px;
+    }
+
+    .skills_titulo {
+        font-size: 25px;
+    }
+
+    .estudos_titulo {
+        font-size: 25px;
+    }
+    
+    .experiencia_titulo {
+        font-size: 25px;
+    }
+
+    .projetos_titulo {
+        font-size: 25px;
+    }
+
+    .contato_titulo {
+        font-size: 25px;
     }
 
     .sobremim,
@@ -475,12 +513,49 @@ header {
     .ferramentas {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 15px;
+    }
+
+    .ferramentas_ferramenta {
+        padding: 15px;
     }
 
     .formacoes,
     .trabalhos {
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .formacoes_formacao {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .formacao_img {
+        max-width: 150px;
+    }
+
+    .formacao_info_titulo {
+        font-size: 15px;
+    }
+
+    .formacao_info_p {
+        font-size: 10px;
+    }
+
+    .trabalhos_trabalho_img {
+        max-width: 150px;
+    }
+
+    .trabalhos_trabalho_info_titulo {
+        font-size: 15px;
+    }
+
+    .trabalhos_trabalho_info_p {
+        font-size: 10px;
     }
 
     .sites_site {
@@ -490,16 +565,23 @@ header {
     }
 
     .sites_site_img {
-        max-width: 100%;
+        max-width: 400px;
+    }
+
+    .sites_site_titulo {
+        font-size: 20px;
     }
 
     .sites_site_botao {
         width: 80%;
         text-align: center;
+        font-size: 15px;
+        padding: 10px;
     }
 
     .contato_p {
         width: 90%;
+        font-size: 15px;
         text-align: center;
     }
 }
