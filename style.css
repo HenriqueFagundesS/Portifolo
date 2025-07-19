@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
     height: 100vh;
+
 }
 
 /*Header*/
@@ -14,6 +19,7 @@ header {
     justify-content: space-around;
     align-items: center;
     background-color: #03c0ff;
+    height: 100px;
 }
 
 .link {
@@ -24,7 +30,17 @@ header {
 .link_texto {
     font-size: 30px;
     font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.link_texto:hover {
+    border: solid white 2px;
+    border-radius: 20px;
+    padding: 5px;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 .areas {
@@ -36,7 +52,7 @@ header {
 .areas_area {
     font-size: 20px;
     font-weight: 800;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
 }
 
 .areas_area_link {
@@ -50,8 +66,11 @@ header {
 
 .areas_area_link:hover {
     font-size: 22px;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    border: solid white 1px;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 
@@ -71,20 +90,20 @@ header {
 }
 
 .home_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 30px;
     margin: 0;
 }
 
 .home_paragrafo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 20px;
     margin: 0;
 }
 
 .home_button {
     background-color: #03c0ff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 18px;
     border-radius: 10px;
     padding: 5px;
@@ -116,13 +135,13 @@ header {
 
 
 .sobremim_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 30px;
     margin: 0;
 }
 
 .sobremim_texto {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 18px;
     margin: 0;
 }
@@ -138,7 +157,7 @@ header {
 }
 
 .skills_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 30px;
     margin: 0;
 }
@@ -164,10 +183,7 @@ header {
 }
 
 .ferramentas_ferramenta:hover {
-    width: 120px;
-    height: 100px;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    transform: scale(1.1);
 }
 
 .ferramentas_ferramenta_img {
@@ -176,7 +192,7 @@ header {
 
 
 .ferramentas_ferramenta_p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 18px;
     margin: 0;
 }
@@ -193,7 +209,7 @@ header {
 }
 
 .estudos_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 30px;
     margin: 0;
 }
@@ -219,9 +235,7 @@ header {
 }
 
 .formacao_img:hover {
-    max-width: 240px;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    transform: scale(1.1);
 }
 
 .formacao_info {
@@ -229,13 +243,13 @@ header {
 }
 
 .formacao_info_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 20px;
     margin: 0;
 }
 
 .formacao_info_p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 15px;
     margin: 0;
 }
@@ -251,7 +265,7 @@ header {
 }
 
 .experiencia_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 30px;
     margin: 0;
 }
@@ -277,19 +291,17 @@ header {
 }
 
 .trabalhos_trabalho_img:hover {
-    max-width: 240px;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    transform: scale(1.1);
 }
 
 .trabalhos_trabalho_info_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 20px;
     margin: 0;
 }
 
 .trabalhos_trabalho_info_p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 15px;
     margin: 0;
 }
@@ -300,12 +312,12 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     margin: 100px 150px;
 }
 
 .projetos_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 30px;
     margin: 0;
 }
@@ -323,6 +335,10 @@ header {
     gap: 100px;
 }
 
+.invertido {
+    flex-direction: row-reverse;
+}
+
 .sites_site_img {
     max-width: 700px;
     border-radius: 20px;
@@ -332,9 +348,7 @@ header {
 }
 
 .sites_site_img:hover {
-    max-width: 750px;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    transform: scale(1.1);
 }
 
 .sites_site_info {
@@ -345,13 +359,13 @@ header {
 }
 
 .sites_site_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 25px;
     margin: 0;
 }
 
 .sites_site_botao {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 17px;
     margin: 0;
     text-decoration: none;
@@ -374,7 +388,7 @@ header {
 }
 
 .contato_titulo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 30px;
     margin: 0;
 }
@@ -387,18 +401,40 @@ header {
 }
 
 .contato_p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Sansation", sans-serif;
     font-size: 15px;
     margin: 0;
-    color: #FFFFFF;
+    color: #000000;
     border: #000000 solid 1px;
     padding: 10px;
     border-radius: 10px;
+
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.contato_p:hover {
+    color: #00268d;
+    border-color: #00268d;
+
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 .contato_link {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #000000;
+
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.contato_link:hover {
+    color: #00268d;
+    border-color: #00268d;
+
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 @media (max-width: 768px) {
@@ -428,7 +464,11 @@ header {
         max-width: 200px;
     }
 
-    .sobremim, .skills, .estudos, .experiencia, .projetos {
+    .sobremim,
+    .skills,
+    .estudos,
+    .experiencia,
+    .projetos {
         margin: 40px 20px;
     }
 
@@ -437,7 +477,8 @@ header {
         justify-content: center;
     }
 
-    .formacoes, .trabalhos {
+    .formacoes,
+    .trabalhos {
         flex-direction: column;
         align-items: center;
     }
